@@ -1,19 +1,26 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-    content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
-    theme: {
-        extend: {
-            fontFamily: {
-                sans: ['Inter', 'sans-serif'],
-            },
-            colors: {
-                brand: {
-                    50: '#fff4ed', 100: '#ffebd5', 200: '#ffd3ab', 300: '#ffb57a',
-                    400: '#ff8c3d', 500: '#ff6a0a', 600: '#ef5100', 700: '#c63b02',
-                    800: '#9d2f0a', 900: '#7e290c',
-                }
-            }
-        }
-    },
-    plugins: [],
+	content: ['./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}'],
+	theme: {
+		extend: {
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+			},
+			colors: {
+				brand: {
+					50: '#eff6ff',
+					100: '#dbeafe',
+					200: '#bfdbfe',
+					300: '#93c5fd',
+					400: '#60a5fa',
+					500: '#3b82f6', // Nuevo color principal: Azul vibrante
+					600: '#2563eb',
+					700: '#1d4ed8',
+					800: '#1e40af',
+					900: '#1e3a8a',
+				}
+			}
+		}
+	},
+	plugins: [],
 }
